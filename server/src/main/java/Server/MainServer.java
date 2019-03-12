@@ -75,6 +75,7 @@ public class MainServer
 		
 		if(!htmlF.exists()) 
 		{
+			System.out.println(htmlF.getPath());
 			System.out.println("The HTML folder is missing. The server cannot run without it. Shutting down!");
 		}
 		else if(!dataF.exists()) 
